@@ -52,7 +52,10 @@
     position: absolute;
     top: -20px;
 }
-@media (max-height:400px){
+@media(max-height:400px){
+    .navigator{
+        height: 90vh;
+    }
     .navigator ul{
         height: 50vh;
     }
