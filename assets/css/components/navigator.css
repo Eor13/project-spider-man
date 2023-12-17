@@ -52,3 +52,11 @@
     position: absolute;
     top: -20px;
 }
+@media (max-height:400px){
+    .navigator ul{
+        height: 50vh;
+    }
+    .navigator ul li{
+        margin: 40px 0;
+    }
+}
