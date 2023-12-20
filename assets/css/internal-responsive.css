@@ -7,8 +7,12 @@
     .s-wrapper{
         width: 100vw;
     }
+    .s-wrapper .s-left-column{
+        background: linear-gradient(90deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.6) 100%);
+    }
     .s-wrapper .s-main-content{
         padding-left: 15vw;
+        background-position: center right;
     }
     .s-wrapper .s-main-content .s-logo img{
         width: 90%;
@@ -42,6 +46,12 @@
     }
 }
 @media (max-width:450px) {
+    .s-wrapper .s-left-column{
+        width: 18vw;
+    }
+    .s-wrapper .s-main-content{
+        background-position:top;
+    }
     .s-wrapper .s-main-content .s-logo img{
         width: 70%;
     }
